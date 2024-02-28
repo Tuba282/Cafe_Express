@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CafeExpress</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Salsa&family=Satisfy&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-image:linear-gradient(rgba(1, 6, 0, 0.167),rgba(127, 227, 236, 0)) ,url(BACK.jpg);
+            background-size: cover;
+           
+        }h1 i{
+            color: rgb(222, 222, 88);
+            text-shadow: 15px 15px 120px black ;
+            word-spacing: 0.7em;
+            font-family:'Salsa' ;
+            letter-spacing: 0.1em;
+            
+
+        }
+        h2{
+            justify-content: center;
+            text-align: center;
+            margin-top: 20px;
+            font-family:'Salsa' ;
+            text-shadow: 80px 50px  14px rgb(189, 252, 0);
+            
+        }
+        .form{
+            width: 50%;
+            height: 872px;
+            background-color: rgba(0, 0, 0, 0.53);
+            font-size: large;
+            margin-left: 26%;
+            border-radius: 30px;
+            border: 15px double rgb(222, 222, 88);
+            color: aliceblue; 
+            font-family:'Salsa' ;
+            
+               }
+        label{
+            margin-left: 170px;
+            color: aliceblue; 
+            letter-spacing: 0.1em;
+            
+        }
+        
+        input{
+            width: 250px;
+            height: 25px;   
+            margin-left: 20px;
+            border-radius: 5px;
+            background: rgb(249, 248, 215);
+            
+        }
+        textarea{
+            margin-left: 80px;
+            border-radius: 10px;
+            border: 2px solid black;
+            background: rgb(249, 248, 215);
+
+        }
+        button{
+            margin-top: 10px;
+            margin-left: 210px;
+            padding: 10px 25px;
+            border-radius: 30px;
+            border: 4px solid rgb(222, 222, 88);
+            background-color: rgba(0,0,0,0.2);
+            font-family: 'salsa';
+            color: aliceblue; 
+            font-size: large;
+            letter-spacing: 0.2em;
+        }   
+        .g{
+            width: 30px;
+            height:15px ;
+        }
+        
+    </style>
+</head>
+<body>
+    <center><h1> <i> For Online  Booking </i> </h1></center>
+<form class="form"> 
+        <h2>SIGN-UP </h2>
+        
+
+        <label> First Name : <input type="text" placeholder=" Enter your first name" required></label><br><br> 
+        <label> Last Name : <input type="text" placeholder=" Enter your last name" required></label> <br><br>
+        <label> E-mail :    <input type="email" placeholder=" Enter your email" required></label> <br><br>
+        <label> Password :  <input type="password" placeholder=" Enter your password" required></label> <br><br>
+        <label> Date of Birth : <input type="date" placeholder=" Enter your DOB" required></label> <br><br>
+        <label> Age : <input type="number" placeholder=" Enter your age" required></label> <br><br>
+        <label> Contact : <input type="number" placeholder=" Enter your contact.no " required></label><br><br>
+        
+        <label> Gender : </label>
+            <input class="g" type="checkbox" name="male" id="m">Male            
+            <input class="g" type="checkbox" name="female" id="f">Female
+        <br><br>
+        <label> Nationality : <input type="text" placeholder=" Enter your Nationality" required></label><br><br>
+        <label> Religion :    <input type="text" placeholder=" Enter your Religion" required></label> <br><br>
+        <label> Address :     <input type="text,numbers" placeholder=" Enter your address"  required></label><br><br>
+        <label> Time & Date : <input type="datetime-local" placeholder=" Current date and Time" required></label> <br><br>
+    <label>Comments Session....</label> <br><br>
+    <textarea cols="80" rows="3" placeholder=" Enter your unsolve quires here..." required></textarea> <br>
+    
+    <button class="" type="submit">Save</button>
+    <button class="" type="reset">Clear</button><br><br>
+</form>
+
+    
+</body>
+</html>

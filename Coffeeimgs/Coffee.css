@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.header{
+    width: 100%;
+    font-family: "Dancing Script";
+    color: rgb(67, 21, 21);
+    font-size: 200%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.menu img{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+}
+
+.logo{
+    font-size: xx-large;
+    text-shadow:2px 10px 10px #1f1f0e;
+    color: rgb(67, 21, 21);
+    font-size: 150%;
+}
+
+.logo, a {
+    display: inline;
+    margin: 0px 16px;
+    text-decoration: none;
+    color: rgb(67, 21, 21);
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow:2px 10px 10px #1f1f0e;
+    
+}
+/* oooooooooooooooooooooooooooooo Coffee page ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+h1 a {
+    color: rgb(67, 21, 21);
+    font-size: 200%;
+    font-family: "Dancing Script", cursive;
+}
+.fun{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fun img{
+    margin: 20px;
+    width: 850px;
+    height: 600px;
+    border-radius: 10%;
+    border: 15px double rgba(69, 20, 20, 0.918);
+}
+.fun .p{
+    font-size: large;  color: rgb(255, 238, 0);
+    font-size: 150%;
+    font-family: "Dancing Script", cursive;
+    color: rgba(0, 0, 0, 0.918);
+    word-spacing: 0.2em;
+    margin-top: 70px;
+    width: 800px;
+    height: 700px;
+    float:right;
+    line-height: 1.7em;
+    letter-spacing: 0.2;
+}
+
+video{
+    width: 90%;
+    margin: 10px;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    margin-left: 65px;
+    box-shadow: 5px 5px 65px #f2f2ec;
+}
+
+.allcards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.card {
+    border: 3px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: auto;
+    width:  900px;
+    height: 500px;
+
+}
+.card img{
+    width:  320px;
+    height: 260px;
+
+}
+.card h2{
+    color: rgb(255, 238, 0);
+    font-size: 300%;
+    font-family: "Dancing Script", cursive;
+
+}
+.card p{
+    color: rgb(54, 19, 19);
+    font-size: 200%;
+    text-shadow: 2px 0px 5px #fffb00;
+    font-family: "Dancing Script", cursive;
+
+}
+/* ooooooooooooooooooooo Footer button oooooooooooooooooooo */
+button {
+
+    color: white;
+    background-color: rgb(54, 16, 16);
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-weight: bolder;
+    width: 550px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: larger;
+    transition: all 400ms ease;
+}button:hover{
+    transform: scale(1.09);
+}
+
+table img {
+    width: 430px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 30%;
+    border: 9px solid  #341515;
+    box-shadow: 3px 3px 55px rgb(0, 0, 0);
+    transition: all 400ms  ease;
+   }
+   table img:hover{
+    transform: scale(1.03);
+   }
+/* ooooooooooooooooooooo Footer oooooooooooooooooooo */
+.footericon img{
+    
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.footerlinks a{
+    font-size: large;
+    color: #ffffff;
+}
+.footerline{
+    color: #ffffff;
+    text-shadow: 10px 10px 22px #ffffff;
+}
+
+/* oooooooooooooooooooooooo Body ooooooooooooooooooooooooooo */
+
+body{
+    background-color: rgba(88, 19, 19, 0.459);
+}
+
+.foot{
+    background-image: url(./footer.jpg);
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

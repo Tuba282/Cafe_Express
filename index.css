@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: #d9ff1c49;
+    background-image: url(/apps/body.avif);
+}
+.container{
+    font-weight:bolder;
+    font-size: large;
+    background-image:linear-gradient(rgba(1, 6, 0, 0.719),rgba(127, 227, 236, 0)) ,url(backgroundimg/BACK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #d9ff1c;
+    
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.menu img{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+}
+
+.logo{
+   
+    font-weight: bolder;
+    text-shadow:2px 10px 10px #1f1f0e;
+}
+
+.logo, a {
+    display: inline;
+    margin: 0px 16px;
+    text-decoration: none;
+    color: rgb(255, 238, 0);
+    font-size: x-large;
+    font-family: "Dancing Script", cursive;
+    text-transform: capitalize;
+     font-size: 200%;
+}
+
+button{
+    width: 250px;
+    margin: 2px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgba(189, 189, 59, 0.678);
+    color: #000000;
+    font-style: normal;
+}
+
+.front{
+    width: 99%;
+    height: 500px;
+    display: flex;
+}
+.h1{
+
+    margin-top: 100px;
+    margin-left: 80px;
+    color: rgb(255, 238, 0);
+    font-size: 300%;
+    text-shadow: 2px 0px 5px #000000;
+    font-family: "Dancing Script", cursive;
+
+ } 
+.p{
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0px 5px #ffffff4a;
+    padding: 5px;
+    margin: 25px;
+    margin-right: 200px;
+    margin-left: 250px;
+
+} 
+.btn{
+    margin: 15px;
+    width: 300px;
+    padding:10px ;
+    color: #fffbfb;
+    margin-left: 80px;
+    font-size: larger;
+    box-shadow:-2px 0px 55px #d9ff1c;
+}
+
+
+/* LOGIN */
+   
+.box1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.433);
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 420px;
+    color: rgb(0, 0, 0);
+    text-shadow: 9px 0px 9px rgb(175, 175, 86);
+    margin-top: 80px;
+    margin-right: 80px;
+    border: 1px; 
+    box-shadow: 2px 2px 42px #000000;
+}
+
+.box1 input{
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    /* border: 5px solid rgb(32, 207, 32); */
+    
+}
+
+.login {
+    padding: 10px;
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    box-shadow: 2px 2px 2px #000000;
+}
+
+.login {
+    text-decoration: none;
+    font-size: larger;
+    
+    color: rgb(76, 65, 65);
+    font-weight: bold;
+    
+}
+
+#forget{
+    text-decoration: none;
+    font-size: small;
+    color: #000000;
+}
+
+.acc{
+    background-color: #d6ff0aed;
+    padding: 10px;
+    width: 190px;
+    border: none;
+    font: #000;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.acc a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+}
+
+
+.buttonicon img{
+    width: 40px;
+    padding: 6px;
+    height: 40px;
+    border-radius: 50%;
+}
+.chefs{
+
+    width: 80%;
+    height: 800px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 55px#1f1f0e;
+}
+.chef {
+    margin-top: 10px;
+    margin-left: 80px;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    text-shadow: 2px 0px 5px #ffd900;
+    font-family: "Dancing Script", cursive;
+
+}
+.footer h1{
+    color: rgb(57, 52, 52);
+    font-size: 200%;
+    text-shadow: 2px 0px 5px #eaff00;
+    
+}
+.footer{
+    width: 100%;
+    height:10vh ;
+}
+
+.footericon img{
+    
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.footerline{
+    background-color: rgba(205, 204, 192, 0.7);
+    color: #030303;
+    text-shadow: 10px 10px 22px #ffffff;
+}
+table img{
+    border-radius: 30%;
+    margin: 3px;
+
+    border: 9px solid  #ffffff;
+    box-shadow: 3px 3px 55px rgb(0, 0, 0);
+}
